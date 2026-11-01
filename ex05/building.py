@@ -38,3 +38,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# ---------------- TEST ----------------
+# python3.10 building.py 'Hello World!'
+#
+# python3.10 building.py
+# (then type: Hello World and press Enter)
+#
+# Or automatic stdin:
+# printf 'Hello World!\n' | python3.10 building.py
+# --------------------------------------

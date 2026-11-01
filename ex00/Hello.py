@@ -13,3 +13,13 @@ print(ft_list)
 print(ft_tuple)
 print(ft_set)
 print(ft_dict)
+
+
+# ---------------- TEST ----------------
+# python3.10 hello.py
+# Expected:
+# ['Hello', 'World!']
+# ('Hello', 'France!')
+# {'Hello', 'Paris!'}  # order may vary
+# {'Hello': '42Paris!'}
+# --------------------------------------

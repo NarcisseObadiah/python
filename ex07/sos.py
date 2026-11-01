@@ -40,3 +40,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# ---------------- TEST ----------------
+# python3.10 sos.py "sos"
+# python3.10 sos.py 'h$llo'
+# python3.10 sos.py
+# python3.10 sos.py a b
+#
+# Expected:
+# ... --- ...
+# AssertionError: the arguments are bad
+# AssertionError: the arguments are bad
+# AssertionError: the arguments are bad
+# --------------------------------------

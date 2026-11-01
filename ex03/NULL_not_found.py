@@ -18,3 +18,33 @@ def NULL_not_found(object: any) -> int:
         print("Type not Found")
         return 1
     return 0
+
+
+def main() -> None:
+    """Running this file alone must print nothing."""
+    return
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception:
+        pass
+
+# ---------------- TEST ----------------
+# python3.10 NULL_not_found.py
+# (should print nothing)
+#
+# python3.10 -c "from NULL_not_found import NULL_not_found as f; \
+# Nothing=None; Garlic=float('NaN'); Zero=0; Empty=''; Fake=False; \
+# f(Nothing); f(Garlic); f(Zero); f(Empty); f(Fake); print(f('Brian'))"
+#
+# Expected:
+# Nothing: None <class 'NoneType'>
+# Cheese: nan <class 'float'>
+# Zero: 0 <class 'int'>
+# Empty: <class 'str'>
+# Fake: False <class 'bool'>
+# Type not Found
+# 1
+# --------------------------------------

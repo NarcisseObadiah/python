@@ -25,3 +25,20 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# ---------------- TEST ----------------
+# python3.10 whatis.py 14
+# python3.10 whatis.py -5
+# python3.10 whatis.py
+# python3.10 whatis.py 0
+# python3.10 whatis.py 'Hi!'
+# python3.10 whatis.py 13 5
+#
+# Expected:
+# I'm Even.
+# I'm Odd.
+# I'm Even.
+# AssertionError: argument is not an integer
+# AssertionError: more than one argument is provided
+# --------------------------------------

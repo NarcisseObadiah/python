@@ -26,3 +26,17 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# ---------------- TEST ----------------
+# python3.10 filterstring.py 'Hello the World' 4
+# python3.10 filterstring.py 'Hello the World' 99
+# python3.10 filterstring.py 3 'Hello the World'
+# python3.10 filterstring.py
+#
+# Expected:
+# ['Hello', 'World']
+# []
+# AssertionError: the arguments are bad
+# AssertionError: the arguments are bad
+# --------------------------------------
